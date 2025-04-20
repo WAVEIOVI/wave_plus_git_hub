@@ -1,0 +1,71 @@
+export default [
+  {
+    title: "Test",
+    icon: { icon: "tabler-layout-grid-add" },
+    children: [
+      {
+        title: "Home",
+        to: { name: "index" },
+        icon: { icon: "tabler-smart-home" },
+        action: "read",
+        subject: "Auth",
+      },
+      {
+        title: "Super Admin Dashboard",
+        to: { name: "dashboard-super-admin-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "all",
+      },
+      {
+        title: "Admin Dashboard",
+        to: { name: "dashboard-admin-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: ["ClientDashboard", "AdminDashboard"],
+      },
+      {
+        title: "Operations Manager Dashboard",
+        to: { name: "dashboard-operations-manager-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "OperationsManagerDashboard",
+      },
+      {
+        title: "Finance Manager Dashboard",
+        to: { name: "dashboard-finance-manager-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "FinanceManagerDashboard",
+      },
+      {
+        title: "Technician Dashboard",
+        to: { name: "dashboard-technician-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "TechnicianDashboard",
+      },
+      {
+        title: "Client Dashboard",
+        to: { name: "dashboard-client-dashboard" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "ClientDashboard",
+      },
+      {
+        title: "Client Dashboard Test",
+        to: { name: "dashboard-client-dashboard-test" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "ClientDashboard",
+      },
+      {
+        title: "Business Partner Dashboard",
+        to: { name: "dashboard-client-dashboard-test" },
+        icon: { icon: "tabler-dashboard" },
+        action: "manage",
+        subject: "ClientDashboard",
+      },
+    ],
+  },
+]
